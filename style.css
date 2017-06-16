@@ -1,0 +1,254 @@
+/* CSS Document */
+
+/*全局reset 开始*/
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:"microsoft yahei";
+	color:#616161;
+	background:url(../images/body_bg.jpg) no-repeat center top;
+}
+h1,h2,div,img,p,ul,li,dl,dt,dd,a{
+	margin:0;
+	padding:0;
+	border:none;
+	text-decoration:none;
+	list-style:none;
+}
+/*全局reset 结束*/
+
+/*头部header开始*/
+.header{
+	width:980px;
+	height:119px;
+	margin:0 auto;
+}
+.header img{
+	margin-top:20px;
+	margin-left:5px;
+}
+/*头部header结束*/
+
+/*导航nav开始*/
+.nav{
+	width:980px;
+	height:58px;
+	margin:0 auto;
+}
+.nav .nav_left{
+	width:17px;
+	height:58px;
+	float:left;
+	background:url(../images/nav_left.jpg) no-repeat left top;
+}
+.nav .nav_center{
+	width:946px;
+	height:58px;
+	float:left;
+	background:url(../images/nav_bg.jpg) repeat-x;
+}
+.nav .nav_center ul{
+	width:946px;
+	height:44px;
+}
+.nav .nav_center ul li{
+	float:left;
+	width:104px;
+	text-align:center;
+	line-height:44px;
+	background:url(../images/nav_line.jpg) no-repeat right;
+}
+.nav .nav_center ul li.nobg{
+	background:none;
+}
+.nav .nav_center ul li a{
+	color:#fff;
+	font-size:15px;
+}
+.nav .nav_center ul li a:hover{
+	text-decoration:underline;
+}
+.nav .nav_right{
+	width:17px;
+	height:58px;
+	float:right;
+	background:url(../images/nav_right.jpg) no-repeat right top;
+}
+
+/*导航nav结束*/
+
+/*banner开始*/
+.banner{
+	width:980px;
+	height:385px;
+	margin:0 auto;
+	margin-top:3px;
+	background:url(../images/banner.jpg) no-repeat;
+}
+/*banner结束*/
+
+/*主体content开始*/
+.content{
+	width:980px;
+	height:311px;
+	margin:6px auto 10px;
+}
+.content .list{
+	width:962px;
+	height:92px;
+	padding:9px 9px 0;
+	border-bottom:1px solid #e0e0e0;
+	background:url(../images/content_bg.jpg) no-repeat center top #fff;
+}
+.content .list ul{
+	width:962px;
+	height:83px;
+	margin:0 auto;
+}
+.content .list ul li{
+	width:235px;
+	height:83px;
+	float:left;
+	margin-right:7px;
+	background:url(../images/list_bg.jpg) no-repeat;
+	
+}
+.content .list ul li.list_no{
+	margin-right:0;
+}
+.content .list ul li p.one{
+	margin-top:11px;
+	margin-left:13px;
+	height:25px;
+}
+.content .list ul li p.two{
+	margin-left:51px;
+	margin-right:15px;
+	color:#9d9d9d;
+}
+
+.content .main{
+	width:980px;
+	height:209px;
+	background:url(../images/main_bg.gif) repeat-x;
+}
+.content .main .about{
+	width:312px;
+	height:198px;
+	float:left;
+	padding-top:11px;
+	padding-left:10px;
+	background:url(../images/main_bg_line.jpg) no-repeat right top;
+}
+.content .main h2{
+	position:relative;
+	margin-bottom:18px;
+}
+.content .main h2 img.img_r{
+	position:absolute;
+	top:9px;
+	right:10px;
+}
+.content .main .about span{
+	display:block;
+	float:left;
+}
+.content .main .about span img{
+	padding:2px;
+	border:1px solid #d8d8d8;
+	margin-right:11px;
+	margin-bottom:40px;
+}
+.content .main .about p{
+	line-height:20px;
+	margin-right:10px;
+}
+.content .main .about p a:link,.content .main .about p a:visited{
+	color:#398d00;
+}
+
+.content .main .show{
+	width:398px;
+	height:198px;
+	float:left;
+	padding-top:11px;
+	padding-left:10px;
+	background:url(../images/main_bg_line.jpg) no-repeat right top;
+}
+.content .main .show ul{
+	height:120px;
+}
+.content .main .show ul li{
+	float:left;
+}
+.content .main .show ul li img{
+	padding:2px;
+	margin-right:12px;
+	border:1px solid #d8d8d8;
+}
+.content .main .show ul li span{
+	display:block;
+	text-align:center;
+}
+
+.content .main .contact{
+	width:239px;
+	height:198px;
+	float:left;
+	padding-top:11px;
+	padding-left:10px;
+}
+.content .main .contact p{
+	line-height:1.6em;
+}
+/*主体content结束*/
+
+/*底部bottom开始*/
+.bottom{
+	margin-top:10px;
+}
+.bottom .bot_nav{
+	width:980px;
+	height:35px;
+	line-height:35px;
+	margin:0 auto;
+	margin-bottom:1px;
+	color:#fff;
+	text-align:center;
+	background:url(../images/bot_nav_bg.jpg) repeat-x;
+}
+.bottom .bot_nav a{
+	color:#fff;
+	font-size:14px;
+	text-decoration:none;
+}
+.bottom .bot_nav a:hover{
+	text-decoration:underline;
+}
+.bottom .bot_nav span{
+	margin:0 8px;
+}
+
+.bottom .wrap_footer{
+	width:100%;
+	height:87px;
+	background:url(../images/footer_bg.jpg) repeat-x;
+	border-bottom:3px solid #69ba17;
+}
+.footer{
+	width:980px;
+	height:50px;
+	margin:0 auto;
+	padding-top:27px;
+	position:relative;
+}
+.footer p{
+	line-height:1.8em;
+}
+.footer img{
+	position:absolute;
+	top:17px;
+	right:5px;
+}
+/*底部bottom结束*/
